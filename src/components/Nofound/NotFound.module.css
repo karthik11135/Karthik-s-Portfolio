@@ -1,0 +1,12 @@
+.notfound {
+    background-color: aliceblue;
+    border-radius: 6px;
+    width: 60rem;
+    height: 30rem;
+    padding: 4rem;
+    margin: 4rem auto;
+}
+
+.notfound h1 {
+    font-size: 5rem;
+}

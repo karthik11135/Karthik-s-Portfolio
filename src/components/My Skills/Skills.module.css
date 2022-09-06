@@ -1,0 +1,36 @@
+.skills-wrapper {
+  padding: 4rem 3rem;
+  border-radius: 15px;
+  background-color: rgb(236, 235, 255);
+  text-align: center;
+}
+
+.skills {
+    padding-top: 8rem;
+    height: 80vh;
+}
+
+.skills-wrapper h1 {
+    margin-bottom: 7rem;
+}
+
+
+.skills-logos {
+
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 6em;
+    column-gap: 2rem;
+    /* padding: 4rem 4rem; */
+    /* padding-left: 9rem; */
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.skills-logo-wrapper {
+    /* border: 1px solid yellow; */
+    width: 100%;
+}
