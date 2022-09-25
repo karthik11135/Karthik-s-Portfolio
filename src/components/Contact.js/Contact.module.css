@@ -1,0 +1,34 @@
+.contact {
+  height: 80vh;
+}
+
+.contact-box {
+  margin: 2rem;
+  padding: 2rem 3rem;
+}
+
+.contact-box h2 {
+  font-size: 3rem;
+  font-family: "Roboto";
+  margin-bottom: 2rem;
+  color: var(--blue3);
+  text-align: center;
+  /* background-color: rgba(255,255,255,0.05) */
+}
+
+.contact-box p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--blue4);
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.contact-box :nth-child(3):hover {
+  transform: scale(1.05);
+}
+
+

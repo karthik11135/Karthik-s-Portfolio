@@ -1,0 +1,16 @@
+.footer-text {
+  color: darkgrey;
+  font-size: 2rem;
+  margin: 0 auto;
+  /* display: inline-block; */
+}
+
+.footer-box {
+  /* padding-left: 50%; */
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+
+.footer-txt-box {
+  margin: 0 40%;
+}

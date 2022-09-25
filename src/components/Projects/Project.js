@@ -1,8 +1,8 @@
 import React from "react";
-// import ProjectCard from "./ProjectCard.js";
 import classes from "./Project.module.css";
 import ProjectItem from "./ProjectItem";
 import ProjectsList from "./ProjectsList";
+import { Outlet } from "react-router-dom";
 
 
 const Project = () => {
@@ -12,8 +12,9 @@ const Project = () => {
         <div className={classes["project-container"]}>
           <h1 className="subheading">My Projects</h1>
           <div className={classes["projects-display"]}>
-         
-            <ProjectsList />
+              
+            <Outlet />
+
           </div>
         </div>
       </div>

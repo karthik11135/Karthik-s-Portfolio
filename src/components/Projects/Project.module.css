@@ -79,12 +79,18 @@
 .img-box {
     /* border: 1px solid darkblue; */
     height: 80%;
+
     /* border-bottom: 1px solid var(--blue5); */
 }
 
 .img-box img {
+
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     width: 100%;
     height: 100%;
+}
+
+.project-container h1 {
+    margin-bottom: 3rem;
 }

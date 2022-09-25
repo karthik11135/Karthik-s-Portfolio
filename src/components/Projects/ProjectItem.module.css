@@ -1,0 +1,49 @@
+.project-item {
+    /* border: 1px solid black; */
+    height: 50vh;
+}
+
+.flex-row {
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 100%;
+    padding: 1rem;
+    gap: 6rem;
+    height: 100%
+}
+
+.img-box {
+    /* width: 40%; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    border-radius: 5px;
+    width: 80%;
+
+    transform: translate(0, -50px);
+    flex-grow: 2;
+}
+
+
+.text-box {
+    /* border: 2px solid blue; */
+    padding: 2rem 0;
+
+    /* width: 50%; */
+    /* flex-grow: 1; */
+}
+
+.text-box h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.text-box p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

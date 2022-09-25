@@ -27,6 +27,10 @@ body {
   line-height: 1.9;
 }
 
+.active-page {
+  color: beige;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

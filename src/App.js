@@ -1,14 +1,16 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
-import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import Skills from "./components/My Skills/Skills";
 import NotFound from "./components/Nofound/NotFound";
-import Project from "./components/Projects/Project";
 import FullPage from "./pages/FullPage";
-import ProjectsList from "./components/Projects/ProjectsList";
+import SkillsPage from "./pages/SkillsPage";
+import HeroPage from './pages/HeroPage';
+import ProjectPage from './pages/ProjectsPage';
+import Footer from "./components/Footer/Footer";
 import ProjectItem from "./components/Projects/ProjectItem";
+import ProjectCard from './components/Projects/ProjectCard';
+import ProjectsList from "./components/Projects/ProjectsList";
+import Contact from "./components/Contact.js/Contact";
 
 function App() {
   return (
@@ -18,16 +20,18 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<FullPage />}></Route>
-          <Route path="/hero" element={<Hero />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/projects" element={<Project />}>
-            {/* <Route index element={} ></Route> */}
+          <Route path="/" element={<HeroPage />}></Route>
+          <Route path="/hero" element={<HeroPage />}></Route>
+          <Route path="/skills" element={<SkillsPage />}></Route>
+          <Route path="/projects" element={<ProjectPage />}>
+            <Route index element={<ProjectsList />}></Route>
+            <Route path="/projects/:projectId" element={<ProjectItem />}></Route>
           </Route>
-
+          <Route path='/contact' element={<Contact />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </main>
+     {/* <Footer /> */}
     </div>
   );
 }

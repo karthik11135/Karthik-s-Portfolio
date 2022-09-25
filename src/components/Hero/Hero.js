@@ -14,12 +14,11 @@ const Hero = () => {
       <div className="container">
         <div className={classes["hero-wrapper"]}>
           <div className={classes.col1}>
-            <h1>Hey there</h1>
+            <h1>Hey</h1>
             <h2>
               <span>I</span>
               <span>'</span>
-              <span>m </span>
-              <span> </span>
+              <span>m_</span>
               <span>K</span>
               <span>a</span>
               <span>r</span>
@@ -28,10 +27,10 @@ const Hero = () => {
               <span>i</span>
               <span>k</span>
             </h2>
-            <p>FrontEnd Developer</p>
+            <p style={{color: 'var(--blue4)'}}>FrontEnd WebDev</p>
           </div>
           <div className={classes.col2}>
-            <GrCode style={iconClass} size={160} />
+            <GrCode style={iconClass} size={170} />
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ const ProjectCard = (props) => {
         <img src={props.img}></img>
       </div>
       <h2>{props.title}</h2>
+      
     </div>
   );
 };
