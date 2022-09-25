@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.324ca6c1.css",
-    "main.js": "/react-gh-pages/static/js/main.c1726814.js",
-    "static/media/karthik.jpg": "/react-gh-pages/static/media/karthik.8bce8d70c080d32d7a52.jpg",
-    "static/media/Static website.JPG": "/react-gh-pages/static/media/Static website.0a47cc34c2709809822a.JPG",
-    "static/media/Demo bank app.JPG": "/react-gh-pages/static/media/Demo bank app.143211738f41de451295.JPG",
-    "static/media/Blinking Tiles Game.JPG": "/react-gh-pages/static/media/Blinking Tiles Game.212ca4dbbe152fe6a1e6.JPG",
-    "static/media/Hangman.JPG": "/react-gh-pages/static/media/Hangman.8289c4bf27a5b6eeb6cf.JPG",
-    "static/media/Roll the dies.JPG": "/react-gh-pages/static/media/Roll the dies.23c9474de4382f49f173.JPG",
-    "static/media/SlamBook.JPG": "/react-gh-pages/static/media/SlamBook.4d0d15526d1759d28580.JPG",
-    "static/media/Ball Game.JPG": "/react-gh-pages/static/media/Ball Game.ba02429822ad2b064bfe.JPG",
-    "static/media/Todo List.JPG": "/react-gh-pages/static/media/Todo List.c6c5fb59ff74ae1d8a8f.JPG",
-    "static/media/random spot.JPG": "/react-gh-pages/static/media/random spot.199e3724f79ecd7f4d39.JPG",
-    "index.html": "/react-gh-pages/index.html",
-    "main.324ca6c1.css.map": "/react-gh-pages/static/css/main.324ca6c1.css.map",
-    "main.c1726814.js.map": "/react-gh-pages/static/js/main.c1726814.js.map"
+    "main.css": "/Karthik-s-Portfolio/static/css/main.324ca6c1.css",
+    "main.js": "/Karthik-s-Portfolio/static/js/main.bd3a1178.js",
+    "static/media/karthik.jpg": "/Karthik-s-Portfolio/static/media/karthik.8bce8d70c080d32d7a52.jpg",
+    "static/media/Static website.JPG": "/Karthik-s-Portfolio/static/media/Static website.0a47cc34c2709809822a.JPG",
+    "static/media/Demo bank app.JPG": "/Karthik-s-Portfolio/static/media/Demo bank app.143211738f41de451295.JPG",
+    "static/media/Blinking Tiles Game.JPG": "/Karthik-s-Portfolio/static/media/Blinking Tiles Game.212ca4dbbe152fe6a1e6.JPG",
+    "static/media/Hangman.JPG": "/Karthik-s-Portfolio/static/media/Hangman.8289c4bf27a5b6eeb6cf.JPG",
+    "static/media/Roll the dies.JPG": "/Karthik-s-Portfolio/static/media/Roll the dies.23c9474de4382f49f173.JPG",
+    "static/media/SlamBook.JPG": "/Karthik-s-Portfolio/static/media/SlamBook.4d0d15526d1759d28580.JPG",
+    "static/media/Ball Game.JPG": "/Karthik-s-Portfolio/static/media/Ball Game.ba02429822ad2b064bfe.JPG",
+    "static/media/Todo List.JPG": "/Karthik-s-Portfolio/static/media/Todo List.c6c5fb59ff74ae1d8a8f.JPG",
+    "static/media/random spot.JPG": "/Karthik-s-Portfolio/static/media/random spot.199e3724f79ecd7f4d39.JPG",
+    "index.html": "/Karthik-s-Portfolio/index.html",
+    "main.324ca6c1.css.map": "/Karthik-s-Portfolio/static/css/main.324ca6c1.css.map",
+    "main.bd3a1178.js.map": "/Karthik-s-Portfolio/static/js/main.bd3a1178.js.map"
   },
   "entrypoints": [
     "static/css/main.324ca6c1.css",
-    "static/js/main.c1726814.js"
+    "static/js/main.bd3a1178.js"
   ]
 }
