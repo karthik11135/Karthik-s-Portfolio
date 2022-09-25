@@ -5,6 +5,7 @@ import { SiCsswizardry, SiDebian } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+import {BiGitBranch} from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -19,6 +20,7 @@ const Skills = () => {
               <IoLogoJavascript size={70} />
               <SiReact size={70} />
               <SiRedux size={70} />
+              <BiGitBranch size={70} />
             </div>
           </div>
         </div>
