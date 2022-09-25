@@ -21,7 +21,7 @@ const ProjectItem = () => {
         <div className={classes["text-box"]}>
           <h2>{selectedProj.title}</h2>
           <p>{selectedProj.overview}</p>
-          <p><a href='#'>github</a></p> 
+          <p><a target='blank' href={selectedProj.link}>github</a></p> 
         </div>
       
       </div>
